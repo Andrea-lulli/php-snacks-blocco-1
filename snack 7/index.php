@@ -32,11 +32,11 @@ $mediaVoti = 0;
 for ($i = 0; $i < count($classe); $i++) {
     $totVoti = $classe[$i]['voti'];
 
-    for ($k = 0; $k < count($totVoti); $k++) {
+    
 
-        $mediaVoti += $totVoti[$k] / count($totVoti);
-    }
-     $ok =
+        $mediaVoti = array_sum($totVoti ) / count($totVoti);
+    
+     
     $mediaArrotondata = ceil($mediaVoti);
 echo $classe[$i]['name'] . '<br/>' . $classe[$i]['lastname'] . '<br/>' . 'Media Voti:' . $mediaArrotondata . '<br/>';
    

@@ -9,7 +9,7 @@ $numeri = [];
 
 
 
- for ($i=0; $i < 10; $i++) {
+ for ($i=0; count($numeri) < 10; $i++) {
 
     $random = rand(1,100);
     

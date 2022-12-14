@@ -36,7 +36,7 @@ for ($i = 0; $i < count($classe); $i++) {
 
         $mediaVoti += $totVoti[$k] / count($totVoti);
     }
-    
+     $ok =
     $mediaArrotondata = ceil($mediaVoti);
 echo $classe[$i]['name'] . '<br/>' . $classe[$i]['lastname'] . '<br/>' . 'Media Voti:' . $mediaArrotondata . '<br/>';
    
@@ -44,3 +44,5 @@ echo $classe[$i]['name'] . '<br/>' . $classe[$i]['lastname'] . '<br/>' . 'Media 
 
 
 ?>
+
+
